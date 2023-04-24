@@ -1,5 +1,76 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+   padding: 45px;
+   background-color: rgb(25, 26, 23);
+}
+.content>.item{
+    width: 300px;
+    height: 300px;
+      }
+.content>.item-1>.imges p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding-top:20px ;
+    font-size: 20px;
+}
+.content>.item-1>.imges img{
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.content>.item-2{
+    padding-left: 50px;
+}
+.content>.item-2 h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.content>.item-2>.ta a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.content>.item-2>.ta{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.content>.item-2>.ta>.icona{
+    padding-bottom: 20px;
+    color: black;
+    font-size: 20px;
+}
+.content>.item-3{
+    padding-left: 50px;
+}
+.content>.item-3 h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.content>.item-3>.from{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.content>.item-4{
+    padding-left: 50px;
+}
+.content>.item-4 h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.content>.item-4>.icons{
+    display: flex;
+   gap: 10px;
+   color: rgb(255, 255, 255);
+} 
+.content>.item-4>.icons{
+    padding-bottom: 20px;
+    font-size: 20px;
 }
